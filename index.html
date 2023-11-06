@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Sky is Everywhere</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="background.css" />
+  </head>
+  <body>
+    <div class="image-grid" id="imageGrid"></div>
+    <div id="background-container">
+      <img id="background" src="Background.png" alt="Background Image" />
+      <div id="text-container">
+        <p id="text">THE SKY IS EVERYWHERE</p>
+      </div>
+    </div>
+    <button class="upload-button-one">
+      <span>+ Upload</span>
+    </button>
+    <button class="upload-button-two">
+      <span">About</span>
+    </button>
+    <script src="script.js"></script>
+
+    <div id="popup" class="popup">
+      <div class="popup-content">
+        <span class="close-button" id="closePopup">&times;</span>
+        <p>On "The Sky is Everywhere" we artistically explore the connection between the sky and our emotions. Inspired by 'The Sky Is Everywhere' and 'Cloud Atlas,' we encourage you to capture the sky during moments of lonliness. This platform is a global community for sharing nature's beauty that connects us all and understanding and reflecting on our feelings.</p>
+      </div>
+    </div>
+
+    <div id="uploadPopup" class="popup">
+      <div class="popup-content">
+        <span class="close-button" id="closeUploadPopup">&times;</span>
+        <h2>Upload your Image</h2>
+        <p>Aspect Ratio: 1:1</p>
+        <p>Try to capture as much sky as possible</p>
+        <p>Loneliness is whatever you want it to be</p>
+        <input type="file" id="imageUpload" accept="image/*">
+        <h2>Upload your Information</h2>
+        <input type="text" id="text1" placeholder="Time (ex: 23:20 PDT)">
+        <input type="text" id="text2" placeholder="Date (ex: 10.31.23 )">
+        <input type="text" id="text3" placeholder="Location (ex: Delhi)">
+        <button id="submitUpload">Submit</button>
+      </div>
+    </div>
+    
+    
+    
+  </body>
+</html>
