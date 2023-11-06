@@ -68,7 +68,7 @@ const imageData = [
     caption: "23:28 CET" + "\n" + "11.03.23 " + "\n" + " Zurich",
   },
   {
-    src: "images/img-10.JPG",
+    src: "images/img-10.jpg",
     caption: "02:42 CET" + "\n" + "11.03.23 " + "\n" + " Amsterdam",
   },
   {
